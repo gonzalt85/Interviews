@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Domain",
+    "\\Domain\\Application",
+    "\\Domain\\DomainTests"
+  ],
+  "SelectedNode": "\\Domain\\DomainTests\\InterviewsAppTests.cs",
+  "PreviewInSolutionExplorer": false
+}

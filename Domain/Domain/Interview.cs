@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Interviews
+namespace Interviews.Domain
 {
     public class Interview
     {
@@ -8,7 +8,7 @@ namespace Interviews
         public DateTime ScheduledDate { get; set; }
         public DateTime TakenOn { get; set; }
         public string Interviewer { get; set; }
-        public int Job { get; set; }
+        public Job Job { get; set; }
         public int InterviewType { get; set; }
     }
 }

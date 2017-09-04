@@ -1,0 +1,7 @@
+C:\Users\Juan\Source\Repos\Interviews\Domain\Repository\bin\Debug\netcoreapp1.1\Repository.deps.json
+C:\Users\Juan\Source\Repos\Interviews\Domain\Repository\bin\Debug\netcoreapp1.1\Repository.dll
+C:\Users\Juan\Source\Repos\Interviews\Domain\Repository\bin\Debug\netcoreapp1.1\Repository.pdb
+C:\Users\Juan\Source\Repos\Interviews\Domain\Repository\obj\Debug\netcoreapp1.1\Repository.csproj.CoreCompileInputs.cache
+C:\Users\Juan\Source\Repos\Interviews\Domain\Repository\obj\Debug\netcoreapp1.1\Repository.AssemblyInfo.cs
+C:\Users\Juan\Source\Repos\Interviews\Domain\Repository\obj\Debug\netcoreapp1.1\Repository.dll
+C:\Users\Juan\Source\Repos\Interviews\Domain\Repository\obj\Debug\netcoreapp1.1\Repository.pdb
