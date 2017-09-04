@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Repository.Interfaces
+namespace Interviews.Common.Interfaces
 {
-    interface JobRepository
+    public interface Job
     {
-        
+
     }
 }

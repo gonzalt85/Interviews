@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DomainTests", "DomainTests\DomainTests.csproj", "{481E36F6-09A4-41AC-B4AD-86B015EEDD58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{C6DD93CD-6C4C-49E2-9FF0-DA3D72163A18}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Application\Application.csproj", "{C6DD93CD-6C4C-49E2-9FF0-DA3D72163A18}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{D31DF0C7-A0F3-4092-95B8-C0C5E0B8F660}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository", "Repository\Repository.csproj", "{D31DF0C7-A0F3-4092-95B8-C0C5E0B8F660}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{746D3737-901D-44BD-9006-97A1821BF893}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{D31DF0C7-A0F3-4092-95B8-C0C5E0B8F660}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D31DF0C7-A0F3-4092-95B8-C0C5E0B8F660}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D31DF0C7-A0F3-4092-95B8-C0C5E0B8F660}.Release|Any CPU.Build.0 = Release|Any CPU
+		{746D3737-901D-44BD-9006-97A1821BF893}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{746D3737-901D-44BD-9006-97A1821BF893}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{746D3737-901D-44BD-9006-97A1821BF893}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{746D3737-901D-44BD-9006-97A1821BF893}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
