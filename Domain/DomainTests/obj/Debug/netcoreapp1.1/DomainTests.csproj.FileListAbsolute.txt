@@ -1,0 +1,13 @@
+C:\Users\Juan\Source\Repos\Interviews\Domain\DomainTests\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Juan\Source\Repos\Interviews\Domain\DomainTests\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Juan\Source\Repos\Interviews\Domain\DomainTests\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Juan\Source\Repos\Interviews\Domain\DomainTests\bin\Debug\netcoreapp1.1\DomainTests.deps.json
+C:\Users\Juan\Source\Repos\Interviews\Domain\DomainTests\bin\Debug\netcoreapp1.1\DomainTests.runtimeconfig.json
+C:\Users\Juan\Source\Repos\Interviews\Domain\DomainTests\bin\Debug\netcoreapp1.1\DomainTests.runtimeconfig.dev.json
+C:\Users\Juan\Source\Repos\Interviews\Domain\DomainTests\bin\Debug\netcoreapp1.1\DomainTests.dll
+C:\Users\Juan\Source\Repos\Interviews\Domain\DomainTests\bin\Debug\netcoreapp1.1\DomainTests.pdb
+C:\Users\Juan\Source\Repos\Interviews\Domain\DomainTests\obj\Debug\netcoreapp1.1\DomainTests.csprojResolveAssemblyReference.cache
+C:\Users\Juan\Source\Repos\Interviews\Domain\DomainTests\obj\Debug\netcoreapp1.1\DomainTests.csproj.CoreCompileInputs.cache
+C:\Users\Juan\Source\Repos\Interviews\Domain\DomainTests\obj\Debug\netcoreapp1.1\DomainTests.AssemblyInfo.cs
+C:\Users\Juan\Source\Repos\Interviews\Domain\DomainTests\obj\Debug\netcoreapp1.1\DomainTests.dll
+C:\Users\Juan\Source\Repos\Interviews\Domain\DomainTests\obj\Debug\netcoreapp1.1\DomainTests.pdb
