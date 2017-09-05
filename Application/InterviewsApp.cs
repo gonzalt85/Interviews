@@ -7,8 +7,8 @@ namespace Interviews.Application
 {
     public class InterviewsApp
     {
-        private JobRepository _jobRepository;
-        public InterviewsApp(JobRepository jobRepository)
+        private IJobRepository _jobRepository;
+        public InterviewsApp(IJobRepository jobRepository)
         {
             _jobRepository = jobRepository;
         }
