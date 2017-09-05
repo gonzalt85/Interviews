@@ -12,4 +12,3 @@ C:\Users\Juan\Source\Repos\Interviews\Domain\obj\Debug\netcoreapp1.1\Domain.cspr
 C:\Users\Juan\Source\Repos\Interviews\Domain\obj\Debug\netcoreapp1.1\Domain.AssemblyInfo.cs
 C:\Users\Juan\Source\Repos\Interviews\Domain\obj\Debug\netcoreapp1.1\Domain.dll
 C:\Users\Juan\Source\Repos\Interviews\Domain\obj\Debug\netcoreapp1.1\Domain.pdb
-C:\Users\Juan\Source\Repos\Interviews\Domain\obj\Debug\netcoreapp1.1\Domain.csprojResolveAssemblyReference.cache

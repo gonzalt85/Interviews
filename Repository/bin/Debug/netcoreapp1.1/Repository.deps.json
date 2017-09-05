@@ -15,8 +15,16 @@
         }
       },
       "common/1.0.0": {
+        "dependencies": {
+          "Domain": "1.0.0"
+        },
         "runtime": {
           "Common.dll": {}
+        }
+      },
+      "domain/1.0.0": {
+        "runtime": {
+          "Domain.dll": {}
         }
       }
     }
@@ -28,6 +36,11 @@
       "sha512": ""
     },
     "common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="Application" Bounds="102.666666666667,-154.666666666667,80.1033333333334,25.96" UseManualLocation="True" />
+    <Node Id="Common" Bounds="-23.6320846048991,-161.280000686646,68.9533333333333,25.96" UseManualLocation="True" />
+    <Node Id="Domain" Bounds="-47.2183303833007,-59.7000488174439,61.5833333333333,25.96" UseManualLocation="True" />
+    <Node Id="DomainTests" Bounds="288.505833333333,-149.946666666667,87.23,25.96" UseManualLocation="True" />
+    <Node Id="Repository" Bounds="111.88519938151,-219.073282150777,76.2633333333333,25.96" UseManualLocation="True" />
+  </Nodes>
+  <Links>
+    <Link Source="Application" Target="Common" Bounds="54.3099514750005,-146.120258772874,48.3567084269363,2.42503990048641" />
+    <Link Source="Application" Target="Domain" Bounds="13.0537735233557,-128.706668395996,107.912678722779,64.3947527949253" />
+    <Link Source="Common" Target="Domain" Bounds="-10.6083088626879,-135.320003051758,17.9681400973005,66.9277559560121" />
+    <Link Source="DomainTests" Target="Application" Bounds="191.767199891001,-140.464345001865,96.7386344595845,2.41077700682396" />
+    <Link Source="DomainTests" Target="Domain" Bounds="23.0776884616023,-125.743596231991,265.697799098259,68.7950020573763" />
+    <Link Source="DomainTests" Target="Repository" Bounds="192.62494449375,-189.919260370476,105.301976391847,39.9726008245774" />
+    <Link Source="Repository" Target="Common" Bounds="50.413610233048,-193.113276977539,68.3460459412598,28.3816701571891" />
+  </Links>
+  <Properties>
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="UseManualLocation" DataType="System.Boolean" />
+  </Properties>
+</DirectedGraph>

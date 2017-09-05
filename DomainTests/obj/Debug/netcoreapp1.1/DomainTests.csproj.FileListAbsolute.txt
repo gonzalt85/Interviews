@@ -32,3 +32,7 @@ C:\Users\Juan\Source\Repos\Interviews\DomainTests\obj\Debug\netcoreapp1.1\Domain
 C:\Users\Juan\Source\Repos\Interviews\DomainTests\obj\Debug\netcoreapp1.1\DomainTests.AssemblyInfo.cs
 C:\Users\Juan\Source\Repos\Interviews\DomainTests\obj\Debug\netcoreapp1.1\DomainTests.dll
 C:\Users\Juan\Source\Repos\Interviews\DomainTests\obj\Debug\netcoreapp1.1\DomainTests.pdb
+C:\Users\Juan\Source\Repos\Interviews\DomainTests\bin\Debug\netcoreapp1.1\Common.dll
+C:\Users\Juan\Source\Repos\Interviews\DomainTests\bin\Debug\netcoreapp1.1\Repository.dll
+C:\Users\Juan\Source\Repos\Interviews\DomainTests\bin\Debug\netcoreapp1.1\Repository.pdb
+C:\Users\Juan\Source\Repos\Interviews\DomainTests\bin\Debug\netcoreapp1.1\Common.pdb

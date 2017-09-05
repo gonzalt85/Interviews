@@ -8,10 +8,19 @@
     ".NETCoreApp,Version=v1.1": {
       "application/1.0.0": {
         "dependencies": {
+          "Common": "1.0.0",
           "Domain": "1.0.0"
         },
         "runtime": {
           "Application.dll": {}
+        }
+      },
+      "common/1.0.0": {
+        "dependencies": {
+          "Domain": "1.0.0"
+        },
+        "runtime": {
+          "Common.dll": {}
         }
       },
       "domain/1.0.0": {
@@ -23,6 +32,11 @@
   },
   "libraries": {
     "application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "common/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

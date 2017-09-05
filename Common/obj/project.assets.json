@@ -2266,6 +2266,19 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
+      },
+      "Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v1.1",
+        "dependencies": {
+          "Microsoft.NETCore.App": "1.1.2"
+        },
+        "compile": {
+          "bin/placeholder/Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.dll": {}
+        }
       }
     }
   },
@@ -7029,10 +7042,16 @@
         "system.xml.xpath.xdocument.4.0.1.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
+    },
+    "Domain/1.0.0": {
+      "type": "project",
+      "path": "../Domain/Domain.csproj",
+      "msbuildProject": "../Domain/Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v1.1": [
+      "Domain >= 1.0.0",
       "Microsoft.NETCore.App >= 1.1.2"
     ]
   },
@@ -7064,7 +7083,11 @@
       },
       "frameworks": {
         "netcoreapp1.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Juan\\Source\\Repos\\Interviews\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\Juan\\Source\\Repos\\Interviews\\Domain\\Domain.csproj"
+            }
+          }
         }
       }
     },

@@ -1,18 +1,21 @@
 ﻿using System;
 using Interviews.Common.Interfaces;
+using System.Collections.Generic;
+using Interviews.Domain;
 
 namespace Interviews.Repository
 {
     public class JobRepositoryMock : JobRepository
     {
-        public void AddJob(Job newJob)
+        private List<Job> _jobs = new List<Job>();
+        public void Add(Job newJob)
         {
-            throw new NotImplementedException();
-        }
+            _jobs.Add(newJob);            
+        }       
 
-        public Job GetJob(int id)
+        public Job Get(int id)
         {
-            throw new NotImplementedException();
+            return _jobs.Find(j => j.Id == id);
         }
     }
 }

@@ -1,6 +1,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Interviews.Domain;
 using Interviews.Application;
+using Interviews.Repository;
 
 namespace DomainTests
 {
@@ -10,7 +11,7 @@ namespace DomainTests
         [TestMethod]
         public void CreateJob()
         {
-            InterviewsApp interviewsApp = new InterviewsApp();
+            InterviewsApp interviewsApp = new InterviewsApp(new JobRepositoryMock());
             Job newJob = new Job { Id = 1 };
             interviewsApp.AddJob(newJob);
             var retrievedJob =  interviewsApp.GetJob(1);

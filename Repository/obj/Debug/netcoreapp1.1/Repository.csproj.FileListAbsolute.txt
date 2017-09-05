@@ -15,3 +15,5 @@ C:\Users\Juan\Source\Repos\Interviews\Repository\obj\Debug\netcoreapp1.1\Reposit
 C:\Users\Juan\Source\Repos\Interviews\Repository\obj\Debug\netcoreapp1.1\Repository.csprojResolveAssemblyReference.cache
 C:\Users\Juan\Source\Repos\Interviews\Repository\bin\Debug\netcoreapp1.1\Common.dll
 C:\Users\Juan\Source\Repos\Interviews\Repository\bin\Debug\netcoreapp1.1\Common.pdb
+C:\Users\Juan\Source\Repos\Interviews\Repository\bin\Debug\netcoreapp1.1\Domain.dll
+C:\Users\Juan\Source\Repos\Interviews\Repository\bin\Debug\netcoreapp1.1\Domain.pdb

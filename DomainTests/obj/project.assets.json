@@ -2867,6 +2867,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v1.1",
         "dependencies": {
+          "Common": "1.0.0",
           "Domain": "1.0.0",
           "Microsoft.NETCore.App": "1.1.2"
         },
@@ -2875,6 +2876,20 @@
         },
         "runtime": {
           "bin/placeholder/Application.dll": {}
+        }
+      },
+      "Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v1.1",
+        "dependencies": {
+          "Domain": "1.0.0",
+          "Microsoft.NETCore.App": "1.1.2"
+        },
+        "compile": {
+          "bin/placeholder/Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Common.dll": {}
         }
       },
       "Domain/1.0.0": {
@@ -2888,6 +2903,20 @@
         },
         "runtime": {
           "bin/placeholder/Domain.dll": {}
+        }
+      },
+      "Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v1.1",
+        "dependencies": {
+          "Common": "1.0.0",
+          "Microsoft.NETCore.App": "1.1.2"
+        },
+        "compile": {
+          "bin/placeholder/Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Repository.dll": {}
         }
       }
     }
@@ -8553,10 +8582,20 @@
       "path": "../Application/Application.csproj",
       "msbuildProject": "../Application/Application.csproj"
     },
+    "Common/1.0.0": {
+      "type": "project",
+      "path": "../Common/Common.csproj",
+      "msbuildProject": "../Common/Common.csproj"
+    },
     "Domain/1.0.0": {
       "type": "project",
       "path": "../Domain/Domain.csproj",
       "msbuildProject": "../Domain/Domain.csproj"
+    },
+    "Repository/1.0.0": {
+      "type": "project",
+      "path": "../Repository/Repository.csproj",
+      "msbuildProject": "../Repository/Repository.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -8566,7 +8605,8 @@
       "MSTest.TestAdapter >= 1.1.17",
       "MSTest.TestFramework >= 1.1.17",
       "Microsoft.NET.Test.Sdk >= 15.3.0-preview-20170425-07",
-      "Microsoft.NETCore.App >= 1.1.2"
+      "Microsoft.NETCore.App >= 1.1.2",
+      "Repository >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -8603,6 +8643,9 @@
             },
             "C:\\Users\\Juan\\Source\\Repos\\Interviews\\Application\\Application.csproj": {
               "projectPath": "C:\\Users\\Juan\\Source\\Repos\\Interviews\\Application\\Application.csproj"
+            },
+            "C:\\Users\\Juan\\Source\\Repos\\Interviews\\Repository\\Repository.csproj": {
+              "projectPath": "C:\\Users\\Juan\\Source\\Repos\\Interviews\\Repository\\Repository.csproj"
             }
           }
         }

@@ -1,10 +1,10 @@
-﻿using System;
+﻿using Interviews.Domain;
 
 namespace Interviews.Common.Interfaces
 {
     public interface JobRepository
     {
-        void AddJob(Job newJob);       
-        Job GetJob(int id);
+        void Add(Job newJob);       
+        Job Get(int id);
     }
 }

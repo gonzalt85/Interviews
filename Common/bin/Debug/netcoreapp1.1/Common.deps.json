@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v1.1": {
       "common/1.0.0": {
+        "dependencies": {
+          "Domain": "1.0.0"
+        },
         "runtime": {
           "Common.dll": {}
+        }
+      },
+      "domain/1.0.0": {
+        "runtime": {
+          "Domain.dll": {}
         }
       }
     }
   },
   "libraries": {
     "common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

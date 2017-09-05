@@ -18,3 +18,5 @@ C:\Users\Juan\Source\Repos\Interviews\Application\obj\Debug\netcoreapp1.1\Applic
 C:\Users\Juan\Source\Repos\Interviews\Application\obj\Debug\netcoreapp1.1\Application.AssemblyInfo.cs
 C:\Users\Juan\Source\Repos\Interviews\Application\obj\Debug\netcoreapp1.1\Application.dll
 C:\Users\Juan\Source\Repos\Interviews\Application\obj\Debug\netcoreapp1.1\Application.pdb
+C:\Users\Juan\Source\Repos\Interviews\Application\bin\Debug\netcoreapp1.1\Common.dll
+C:\Users\Juan\Source\Repos\Interviews\Application\bin\Debug\netcoreapp1.1\Common.pdb

@@ -12,7 +12,8 @@
           "Domain": "1.0.0",
           "MSTest.TestAdapter": "1.1.17",
           "MSTest.TestFramework": "1.1.17",
-          "Microsoft.NET.Test.Sdk": "15.3.0-preview-20170425-07"
+          "Microsoft.NET.Test.Sdk": "15.3.0-preview-20170425-07",
+          "Repository": "1.0.0"
         },
         "runtime": {
           "DomainTests.dll": {}
@@ -397,15 +398,32 @@
       },
       "application/1.0.0": {
         "dependencies": {
+          "Common": "1.0.0",
           "Domain": "1.0.0"
         },
         "runtime": {
           "Application.dll": {}
         }
       },
+      "common/1.0.0": {
+        "dependencies": {
+          "Domain": "1.0.0"
+        },
+        "runtime": {
+          "Common.dll": {}
+        }
+      },
       "domain/1.0.0": {
         "runtime": {
           "Domain.dll": {}
+        }
+      },
+      "repository/1.0.0": {
+        "dependencies": {
+          "Common": "1.0.0"
+        },
+        "runtime": {
+          "Repository.dll": {}
         }
       }
     }
@@ -582,7 +600,17 @@
       "serviceable": false,
       "sha512": ""
     },
+    "common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "repository/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
