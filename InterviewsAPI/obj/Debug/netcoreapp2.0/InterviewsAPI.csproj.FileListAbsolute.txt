@@ -8,3 +8,4 @@ C:\Users\Juan\Source\Repos\Interviews\InterviewsAPI\obj\Debug\netcoreapp2.0\Inte
 C:\Users\Juan\Source\Repos\Interviews\InterviewsAPI\obj\Debug\netcoreapp2.0\InterviewsAPI.AssemblyInfo.cs
 C:\Users\Juan\Source\Repos\Interviews\InterviewsAPI\obj\Debug\netcoreapp2.0\InterviewsAPI.dll
 C:\Users\Juan\Source\Repos\Interviews\InterviewsAPI\obj\Debug\netcoreapp2.0\InterviewsAPI.pdb
+C:\Users\Juan\Source\Repos\Interviews\InterviewsAPI\obj\Debug\netcoreapp2.0\InterviewsAPI.csprojResolveAssemblyReference.cache
