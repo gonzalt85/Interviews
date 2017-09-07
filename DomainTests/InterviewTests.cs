@@ -16,11 +16,10 @@ namespace DomainTests
                 new MockInterviewRepository()
                 );
             
-            interviewsApp.AddJob(new Job { Id = 1, Name = "Test" });
-            var retrievedJob =  interviewsApp.GetJob(1);
+            interviewsApp.AddInterview(new Interview { Id = 4 });
+            var retrievedInterview =  interviewsApp.GetInterview(1);
 
-            Assert.AreEqual(1, retrievedJob.Id);
-            Assert.AreEqual("Test", retrievedJob.Name);
+            Assert.AreEqual(1, retrievedInterview.Id);            
         }
 
         [TestMethod]
@@ -31,11 +30,8 @@ namespace DomainTests
                 new MockJobRepository(),
                 new MockInterviewRepository()
                 );
-
-            interviewsApp.AddJob(new Job { Id = 1, Name = "Test1" });
-            interviewsApp.AddJob(new Job { Id = 2, Name = "Test2" });
             
-            Assert.AreEqual(2, interviewsApp.ListJobs().Count);            
+            Assert.AreEqual(3, interviewsApp.ListInterviews().Count);            
         }
 
         [TestMethod]
@@ -46,17 +42,17 @@ namespace DomainTests
                 new MockJobRepository(),
                 new MockInterviewRepository()
                 );
-            interviewsApp.AddJob(new Job { Id = 1, Name = "Test1" });
-            interviewsApp.AddJob(new Job { Id = 2, Name = "Test2" });
+            interviewsApp.AddInterview(new Interview { Id = 4 });
+            interviewsApp.AddInterview(new Interview { Id = 5 });
 
             //ACT
-            var job = interviewsApp.GetJob(1);
-            job.Name = "Test3";
-            interviewsApp.UpdateJob(job);
+            var interview = interviewsApp.GetInterview(4);
+            interview.Id = 6;
+            interviewsApp.UpdateInterview(interview);
 
             //ASSERT
-            Assert.AreEqual("Test3", interviewsApp.GetJob(1).Name);
-            Assert.AreEqual(2, interviewsApp.ListJobs().Count);
+            Assert.AreEqual(6, interviewsApp.GetInterview(6).Id);
+            Assert.AreEqual(5, interviewsApp.ListInterviews().Count);
         }
 
         [TestMethod]
@@ -67,15 +63,15 @@ namespace DomainTests
                 new MockJobRepository(),
                 new MockInterviewRepository()
                 );
-            interviewsApp.AddInterview(new Interview { Id = 1 });
-            interviewsApp.AddInterview(new Interview { Id = 2 });
+            interviewsApp.AddInterview(new Interview { Id = 4 });
+            interviewsApp.AddInterview(new Interview { Id = 5 });
 
             //ACT
-            var interview = interviewsApp.GetInterview(1);            
+            var interview = interviewsApp.GetInterview(1);         
             interviewsApp.DeleteInterview(interview);
 
             //ASSERT            
-            Assert.AreEqual(1, interviewsApp.ListInterviews().Count);
+            Assert.AreEqual(4, interviewsApp.ListInterviews().Count);
             Assert.AreEqual(2, interviewsApp.GetInterview(2).Id);
         }
     }

@@ -3,17 +3,27 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Interviews.Application;
+using Interviews.Common.Interfaces;
+using Interviews.Domain;
 
 namespace InterviewsAPI.Controllers
 {
     [Route("api/[controller]")]
-    public class ValuesController : Controller
+    public class JobController : Controller
     {
+        private readonly InterviewsApp _interviewsApp;
+        public JobController(IJobRepository jobRepository, IInterviewRepository interviewRepository)
+        {
+            _interviewsApp = new InterviewsApp(
+                jobRepository, interviewRepository
+                );
+        }
         // GET api/values
         [HttpGet]
-        public IEnumerable<string> Get()
+        public IEnumerable<Job> Get()
         {
-            return new string[] { "value1", "value2" };
+            return _interviewsApp.ListJobs();
         }
 
         // GET api/values/5

@@ -7,7 +7,11 @@ namespace Interviews.Repository
 {
     public class MockInterviewRepository : IInterviewRepository
     {
-        private List<Interview> _interviews = new List<Interview>();              
+        private List<Interview> _interviews = new List<Interview>() {
+            new Interview { Id=1 },
+            new Interview { Id=2 },
+            new Interview { Id=3 },
+        };              
 
         public void Add(Interview interview)
         {

@@ -7,7 +7,11 @@ namespace Interviews.Repository
 {
     public class MockJobRepository : IJobRepository
     {
-        private List<Job> _jobs = new List<Job>();              
+        private List<Job> _jobs = new List<Job>() {
+            new Job { Id=1, Name = "test1"},
+            new Job { Id=2, Name = "test2"},
+            new Job { Id=3, Name = "test3"},
+        };
 
         public void Add(Job job)
         {

@@ -16,10 +16,10 @@ namespace DomainTests
                 new MockInterviewRepository()
                 );
             
-            interviewsApp.AddJob(new Job { Id = 1, Name = "Test" });
-            var retrievedJob =  interviewsApp.GetJob(1);
+            interviewsApp.AddJob(new Job { Id = 4, Name = "Test" });
+            var retrievedJob =  interviewsApp.GetJob(4);
 
-            Assert.AreEqual(1, retrievedJob.Id);
+            Assert.AreEqual(4, retrievedJob.Id);
             Assert.AreEqual("Test", retrievedJob.Name);
         }
 
@@ -35,7 +35,7 @@ namespace DomainTests
             interviewsApp.AddJob(new Job { Id = 1, Name = "Test1" });
             interviewsApp.AddJob(new Job { Id = 2, Name = "Test2" });
             
-            Assert.AreEqual(2, interviewsApp.ListJobs().Count);            
+            Assert.AreEqual(5, interviewsApp.ListJobs().Count);
         }
 
         [TestMethod]
@@ -46,17 +46,17 @@ namespace DomainTests
                 new MockJobRepository(),
                 new MockInterviewRepository()
                 );
-            interviewsApp.AddJob(new Job { Id = 1, Name = "Test1" });
-            interviewsApp.AddJob(new Job { Id = 2, Name = "Test2" });
+            interviewsApp.AddJob(new Job { Id = 4, Name = "Test1" });
+            interviewsApp.AddJob(new Job { Id = 5, Name = "Test2" });
 
             //ACT
-            var job = interviewsApp.GetJob(1);
-            job.Name = "Test3";
+            var job = interviewsApp.GetJob(4);
+            job.Name = "Test4";
             interviewsApp.UpdateJob(job);
 
             //ASSERT
-            Assert.AreEqual("Test3", interviewsApp.GetJob(1).Name);
-            Assert.AreEqual(2, interviewsApp.ListJobs().Count);
+            Assert.AreEqual("Test4", interviewsApp.GetJob(4).Name);
+            Assert.AreEqual(5, interviewsApp.ListJobs().Count);
         }
 
         [TestMethod]
@@ -67,16 +67,16 @@ namespace DomainTests
                 new MockJobRepository(),
                 new MockInterviewRepository()
                 );
-            interviewsApp.AddJob(new Job { Id = 1, Name = "Test1" });
-            interviewsApp.AddJob(new Job { Id = 2, Name = "Test2" });
+            interviewsApp.AddJob(new Job { Id = 4, Name = "Test1" });
+            interviewsApp.AddJob(new Job { Id = 5, Name = "Test5" });
 
             //ACT
-            var job = interviewsApp.GetJob(1);            
+            var job = interviewsApp.GetJob(4);            
             interviewsApp.DeleteJob(job);
 
             //ASSERT            
-            Assert.AreEqual(1, interviewsApp.ListJobs().Count);
-            Assert.AreEqual("Test2", interviewsApp.GetJob(2).Name);
+            Assert.AreEqual(4, interviewsApp.ListJobs().Count);
+            Assert.AreEqual("Test5", interviewsApp.GetJob(5).Name);
         }
     }
 }
