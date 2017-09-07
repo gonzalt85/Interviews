@@ -1,0 +1,10 @@
+C:\Users\Juan\Source\Repos\Interviews\InterviewsAPI\bin\Debug\netcoreapp2.0\InterviewsAPI.deps.json
+C:\Users\Juan\Source\Repos\Interviews\InterviewsAPI\bin\Debug\netcoreapp2.0\InterviewsAPI.runtimeconfig.json
+C:\Users\Juan\Source\Repos\Interviews\InterviewsAPI\bin\Debug\netcoreapp2.0\InterviewsAPI.runtimeconfig.dev.json
+C:\Users\Juan\Source\Repos\Interviews\InterviewsAPI\bin\Debug\netcoreapp2.0\InterviewsAPI.dll
+C:\Users\Juan\Source\Repos\Interviews\InterviewsAPI\bin\Debug\netcoreapp2.0\InterviewsAPI.pdb
+C:\Users\Juan\Source\Repos\Interviews\InterviewsAPI\obj\Debug\netcoreapp2.0\InterviewsAPI.csproj.CoreCompileInputs.cache
+C:\Users\Juan\Source\Repos\Interviews\InterviewsAPI\obj\Debug\netcoreapp2.0\InterviewsAPI.AssemblyInfoInputs.cache
+C:\Users\Juan\Source\Repos\Interviews\InterviewsAPI\obj\Debug\netcoreapp2.0\InterviewsAPI.AssemblyInfo.cs
+C:\Users\Juan\Source\Repos\Interviews\InterviewsAPI\obj\Debug\netcoreapp2.0\InterviewsAPI.dll
+C:\Users\Juan\Source\Repos\Interviews\InterviewsAPI\obj\Debug\netcoreapp2.0\InterviewsAPI.pdb

@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  interviewsapi:
+    image: interviewsapi
+    build:
+      context: ./InterviewsAPI
+      dockerfile: Dockerfile

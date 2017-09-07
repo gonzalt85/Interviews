@@ -2,7 +2,7 @@
 
 namespace Interviews.Common.Interfaces
 {
-    public interface IJobRepository:IRepository<Job>
+    public interface IJobRepository:ICRUD<Job>
     {
     }
 }
