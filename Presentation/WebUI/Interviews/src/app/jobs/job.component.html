@@ -1,0 +1,48 @@
+<h2>Add new Job</h2>
+<form #jobForm="ngForm">
+    <div class="form-group">
+        <label>Job Name:</label>
+        <select required name="Name" [(ngModel)]="job.Name" class="form-control">
+            <option value="1">.NET Developer</option>
+            <option value="2">Senior .NET Developer</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label>Job Description:</label><input required [(ngModel)]="job.Description" class="form-control"  name="Description">
+    </div>
+    <!-- TODO Remove this: Job Description:{{job.Description}}  -->
+    <div class="form-group">
+        <label>Date Entered:</label><input type="text" class="form-control" name="DateEntered" [(ngModel)]="job.DateEntered">
+    </div>
+    <div class="form-group">
+        <label>Duration:</label><input type="text" class="form-control"  name="Duration" [(ngModel)]="job.Duration">
+    </div>
+    <div class="form-group">
+        <label>Status:</label>
+        <select class="form-control" name="Status" [(ngModel)]="job.Status">
+            <option value="1">Applied</option>
+             <option value="2">Interview Scheduled</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label>Requirements:</label><textarea class="form-control" name="Requirements" [(ngModel)]="job.Requirements"></textarea>
+    </div>
+    <div class="form-group">
+        <label>Notes:</label><textarea class="form-control" name="Notes" [(ngModel)]="job.Notes"></textarea>
+    </div>
+    <div class="form-group">
+        <label>Location:</label>
+        <select class="form-control" name="Location" [(ngModel)]="job.Location">
+            <option value="1">Manhattan, New York</option>
+             <option value="2">Columbus, Ohio</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label>Contacts:</label><select class="form-control" name="Contacts" [(ngModel)]="job.Contacts">
+            <option value="1">Ajay Malhotra</option>
+             <option value="2">Vish Rajalopawan</option>
+        </select>
+    </div>
+ <button (click)="add(job)">Add</button> 
+</form>
+<JobListComponent></JobListComponent>

@@ -1,0 +1,30 @@
+vi<h2>List of Jobs</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Id
+            </th>
+            <th>
+                Name
+            </th>
+            <th>
+                Description 
+            </th>
+            <th>
+                Date Entered
+            </th>
+            <th>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let job of ListAll()">
+            <td>{{job.Id}}</td>
+            <td>{{job.Name}}</td>
+            <td>{{job.Description}}</td>
+            <td>{{job.DateEntered}}</td>
+            <td><button (click)="OnSelect(job)">Details</button></td>
+        </tr>
+    </tbody>
+</table>
